@@ -61,6 +61,7 @@
     line-height: 48px;
     text-align: center;
     color: #181818;
+    margin-bottom: 30px;
 }
 
 .section_description {
@@ -213,4 +214,52 @@ ul.site_menu li:last-child a:hover {
     line-height: 30px;
     text-align: center;
     color: #474747;
+}
+
+
+/* Skill Section Style */
+
+.skill_wraper {
+    margin-top: 130px;
+}
+
+.skill_content_wraper {
+    max-width: 910px;
+    margin: auto;
+}
+
+.skills_wraper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill img {
+    height: 44px;
+    margin-bottom: 30px;
+}
+
+.skill_title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
