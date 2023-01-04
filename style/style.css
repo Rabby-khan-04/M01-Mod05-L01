@@ -29,12 +29,12 @@
     transition: 0.4s;
 }
 
-.btn_primary:hover{
+.btn_primary:hover {
     color: #FD6E0A;
     background-color: transparent;
 }
 
-.btn_outline{
+.btn_outline {
     display: inline-block;
     padding: 18px 36px;
     color: #FD6E0A;
@@ -50,20 +50,36 @@
     transition: 0.4s;
 }
 
-.btn_outline:hover{
+.btn_outline:hover {
     color: #fff;
     background-color: #FD6E0A;
+}
+
+.section_title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+}
+
+.section_description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
 }
 
 /* Header and navigation style  */
 
 header {
-	padding: 50px 0 0;
-	background-color: #FFF8F3;
-	background-image: url("../assets/images/developer.png");
-	background-repeat: no-repeat;
-	background-size: auto;
-	background-position: 25px center;
+    padding: 50px 0 0;
+    background-color: #FFF8F3;
+    background-image: url("../assets/images/developer.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 25px center;
 }
 
 .site_header {
@@ -110,7 +126,7 @@ ul.site_menu li:last-child a {
     border-radius: 5px;
 }
 
-ul.site_menu li:last-child a:hover{
+ul.site_menu li:last-child a:hover {
     color: #FD6E0A;
     background-color: transparent;
 }
@@ -155,7 +171,46 @@ ul.site_menu li:last-child a:hover{
 }
 
 .banner_img_wraper {
-	position: absolute;
-	bottom: -5px;
-	right: 38px;
+    position: absolute;
+    bottom: -5px;
+    right: 38px;
+}
+
+/* About Me Section */
+
+.about_wraper {
+    padding-top: 130px;
+}
+
+.about_content_wraper {
+    padding: 130px 150px;
+    background: #FFF8F3;
+    border-radius: 10px;
+}
+
+.personal_info_wraper {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    text-align: center;
+}
+
+.personal_info {}
+
+.info_title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+}
+
+.info_details {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
 }
