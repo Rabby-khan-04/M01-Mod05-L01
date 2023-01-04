@@ -220,7 +220,7 @@ ul.site_menu li:last-child a:hover {
 /* Skill Section Style */
 
 .skill_wraper {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .skill_content_wraper {
@@ -262,4 +262,147 @@ ul.site_menu li:last-child a:hover {
     font-size: 16px;
     line-height: 28px;
     color: #757575;
+}
+
+
+/* Resume Section Style */
+
+.resume_wraper {
+    padding-top: 130px;
+    padding-bottom: 115px;
+}
+
+.resume_details_wraper {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 115px;
+}
+
+.resume_details {}
+
+.resume_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume_item {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 30px 47px 30px 0;
+}
+
+.resume_item:last-child {
+    border: none !important;
+}
+
+.item_title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.item_sub_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.item_details {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+.cv_btn_wraper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contact Section Style */
+
+.contact_wraper {
+    padding: 130px 0;
+    background: #FFF8F3;
+}
+
+.contact_wraper .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.contact_details {
+    flex-basis: 50%;
+    max-width: 50%;
+    width: 50%;
+}
+
+.contact_title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.contact_sub_title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.social_links {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.contact_form {
+    flex-basis: 40%;
+    max-width: 40%;
+    width: 40%;
+}
+
+.input_field {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding: 18px 30px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 24px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+textarea.input_field{
+    height: 180px;
+}
+
+/* Footer Section Style */
+
+footer{
+    background-color: #FD6E0A;
+    padding: 10px 0;
+}
+
+footer p, footer a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
 }
